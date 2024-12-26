@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    background-color: #007bff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .icons .icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    background-color: white;
+    
+}
+
+.main {
+    padding: 20px;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.main .search-example {
+    margin: 20px 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.main .route {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    
+    background: #fff;
+}
+
+.main .heart-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    
+}
+
+.notification button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 20px;
+    background: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.footer .links {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.footer .links li {
+    margin: 5px 0;
+}
+.icons{
+    color: aliceblue;
+}

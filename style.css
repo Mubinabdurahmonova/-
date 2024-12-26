@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-align: center;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+.search {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) auto;
+    gap: 10px;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.hot-tickets{
+    background: rgb(4, 184, 4);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: #ddd;
+    text-align: center;
+    padding: 50px;
+
+}
+
+ .cashback {
+    background: #007bff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    padding: 50px;
+}
+
+.ticket {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007bff;
+    padding-bottom: 200px;
+    
+
+}
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.icons span {
+    margin: 0 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+.search-container {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.tabs button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #f4f4f4;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tabs .active {
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.search-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.search-form input,
+.search-form select,
+.search-form button {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-form .search-button {
+    grid-column: 1 / -1;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-form .search-button:hover {
+    background-color: #e64a19;
+}
+.menuitems{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    
+}
+.menuitems a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+.left{
+    background-image: url(https://static.aviasales.com/psgr-v2/ru/dubai/wael_hneini_l_Mzb_Yc_Cs_Ipo_unsplash_768x1024_896f01f0d7.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 435px;
+    width: 435px;
+    border-radius: 25px;
+    color: rgb(34, 34, 34);
+    justify-content: center;
+    
+}
+
+
+
+.right{
+    background-image: url(https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcT9CYOnwnNkwRQ_6Y9u2K3pqSeKi471plE9kci4A6saq9A4SSNcMQnKmv08h2vtU0Edf4nJAVi_1RGL-z_5LUXLsj-loTP-HUU04PhqiQ);
+    height: 435px;
+    width: 435px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+}
+.places{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+    
+}
